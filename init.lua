@@ -652,7 +652,7 @@ require('lazy').setup({
         'lua-language-server',
         'stylua', -- Used to format Lua code
         'asm-lsp',
-        'asmft',
+        'asmfmt',
         'ast-grep',
         'bash-language-server',
         'blade-formatter',
