@@ -662,7 +662,7 @@ require('lazy').setup({
         'prettier',
         'eslint-lsp',
         'eslint_d',
-        'intelliphense',
+        'intelephense',
         'jdtls',
         'mypy',
         'pyright',
