@@ -649,7 +649,29 @@ require('lazy').setup({
       -- for you, so that they are available from within Neovim.
       local ensure_installed = vim.tbl_keys(servers or {})
       vim.list_extend(ensure_installed, {
+        'lua-language-server',
         'stylua', -- Used to format Lua code
+        'asm-lsp',
+        'asmft',
+        'ast-grep',
+        'bash-language-server',
+        'blade-formatter',
+        'clang-format',
+        'clangd',
+        'css-lsp',
+        'prettier',
+        'eslint-lsp',
+        'eslint_d',
+        'intelliphense',
+        'jdtls',
+        'mypy',
+        'pyright',
+        'ruff',
+        'rust-analyzer',
+        'tailwindcss-language-server',
+        'typescript-language-server',
+        'vetur-vls',
+        'vue-language-server',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
