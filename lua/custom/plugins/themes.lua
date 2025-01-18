@@ -192,7 +192,7 @@ return {
 
       -- Create a command to open the colorscheme picker
       vim.api.nvim_create_user_command('PickThemery', themery_picker, {})
-      vim.keymap.set('n', '<leader>th', ':PickThemery<CR>', { desc = 'Toggle Themes' })
+      vim.keymap.set('n', '<leader>tr', ':PickThemery<CR>', { desc = 'Toggle Themes' })
     end,
   },
 }

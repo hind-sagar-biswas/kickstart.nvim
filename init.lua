@@ -654,7 +654,7 @@ require('lazy').setup({
       vim.list_extend(ensure_installed, {
         'lua-language-server',
         'stylua', -- Used to format Lua code
-        'asm-lsp',
+        -- 'asm-lsp',
         'asmfmt',
         'ast-grep',
         'bash-language-server',
@@ -847,6 +847,8 @@ require('lazy').setup({
           { name = 'nvim_lsp' },
           { name = 'luasnip' },
           { name = 'path' },
+          -- Copilot Source
+          { name = 'copilot', group_index = 2 },
         },
       }
     end,
